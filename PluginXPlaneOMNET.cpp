@@ -222,6 +222,8 @@ float fWaitForFileCallback(float inElapsedSinceLastCall, float inElapsedTimeSinc
 	}
 	//XPLMDebugString("File Loaded OK");
 
+	//unregister file callback, file created by omnet.
+	XPLMUnregisterFlightLoopCallback(fWaitForFileCallback, NULL);
 	XPLMRegisterFlightLoopCallback(fFlightCallback,2.0,NULL);
 	xConfigDocument.SaveFile();
 
