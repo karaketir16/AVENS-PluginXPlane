@@ -91,7 +91,7 @@ PLUGIN_API int XPluginStart(char * outName, char * outSig,char * outDesc)
 
 	// Disable AI for each aircraft.
 #ifndef WITH_AI
-	for (int AircraftIndex = 1; AircraftIndex < 19; AircraftIndex++)
+	for (int AircraftIndex = 1; AircraftIndex < MAX_NUMBER_OF_PLANES; AircraftIndex++)
 		XPLMDisableAIForPlane(AircraftIndex);
 #endif // WITH_AI
 
