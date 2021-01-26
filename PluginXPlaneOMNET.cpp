@@ -90,10 +90,10 @@ PLUGIN_API int XPluginStart(char * outName, char * outSig,char * outDesc)
 	strcpy(outDesc, "A plugin that integrates X-Plane and OMNeT++.");
 
 	// Disable AI for each aircraft.
+#ifndef WITH_AI
 	for (int AircraftIndex = 1; AircraftIndex < 19; AircraftIndex++)
 		XPLMDisableAIForPlane(AircraftIndex);
-
-
+#endif // WITH_AI
 
 	XPLMDebugString("Leave Plugin Start");
 	return 1;

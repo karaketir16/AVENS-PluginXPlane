@@ -86,6 +86,18 @@ ConcreteMultiAircraft::~ConcreteMultiAircraft(void)
 
 void ConcreteMultiAircraft::vUpdatePosition(void)
 {
+#ifdef WITH_AI
+	this->vReadXPosition();
+	this->vReadYPosition();
+	this->vReadZPosition();
+	this->vReadThetaAngle();
+	this->vReadPhiAngle();
+	this->vReadPsiAngle();
+	this->vReadLatitude();
+	this->vReadLongitude();
+	this->vReadElevation();
+
+#else
 	char message[100];
 
 	UserAircraft * pxUser = UserAircraft::getUserAircraft();
@@ -265,4 +277,5 @@ void ConcreteMultiAircraft::vUpdatePosition(void)
 	this->vReadLatitude();
 	this->vReadLongitude();
 	this->vReadElevation();
+#endif // WITH_AI
 }
