@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlugIn OMNET", "SDK210Tests.vcxproj", "{55F8E90B-F437-4DFC-8455-A4371D01A3DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55F8E90B-F437-4DFC-8455-A4371D01A3DB}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{55F8E90B-F437-4DFC-8455-A4371D01A3DB}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{55F8E90B-F437-4DFC-8455-A4371D01A3DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55F8E90B-F437-4DFC-8455-A4371D01A3DB}.Debug|Win32.Build.0 = Debug|Win32
+		{55F8E90B-F437-4DFC-8455-A4371D01A3DB}.Debug|x64.ActiveCfg = Debug|x64
+		{55F8E90B-F437-4DFC-8455-A4371D01A3DB}.Debug|x64.Build.0 = Debug|x64
+		{55F8E90B-F437-4DFC-8455-A4371D01A3DB}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{55F8E90B-F437-4DFC-8455-A4371D01A3DB}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{55F8E90B-F437-4DFC-8455-A4371D01A3DB}.Release|Win32.ActiveCfg = Release|Win32
+		{55F8E90B-F437-4DFC-8455-A4371D01A3DB}.Release|Win32.Build.0 = Release|Win32
+		{55F8E90B-F437-4DFC-8455-A4371D01A3DB}.Release|x64.ActiveCfg = Release|x64
+		{55F8E90B-F437-4DFC-8455-A4371D01A3DB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
